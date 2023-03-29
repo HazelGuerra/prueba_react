@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@200&family=Bebas+Neue&display=swap');
+
+*{
+  margin: 0;
+}
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +17,73 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+ 
+
+.thebigscreen{
+  background-image:url("https://img.freepik.com/foto-gratis/fondo-borroso-oscuro-abstracto-color-textura-degradado-suave-patron-sitio-web-brillante-encabezado-banner-o-imagen-arte-grafico-barra-lateral_1258-85524.jpg?w=1380&t=st=1680061984~exp=1680062584~hmac=710c02de127cb721753774cb92c00548c0e4d849e1089f5a8331f241a7b1e7e7");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+h1{
+  font-family: 'Bebas Neue', cursive;
+}
+
+.buscador{
+  font-family: 'Archivo', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color:aliceblue;
+  
+}
+
+input{
+  width: 50%;
+  margin: 20px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.cartelera{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+ 
+}
+
+h4{
+  margin-top: 20px;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.pelicula {
+  display: inline-block;
+  width: 18%;
+  margin-right: 2%;
+  margin-bottom: 2%;
+  border: 1px ;
+  padding: 20px;
+  text-align: center;
+  vertical-align: top;
+  font-size: 0.9rem;
+}
+
+span{
+  font-family: 'Bebas Neue', cursive;
+  margin-right: 5px;
+}
+
+.pelicula img {
+  max-width: 100%;
+  height: 200px;
+  margin-bottom: 10px;
+  border-radius: 20px;
 }

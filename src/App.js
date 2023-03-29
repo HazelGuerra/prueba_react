@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react"; 
+import MiApi from './componentes/MiApi.jsx';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="thebigscreen">
+      <nav className="navbar navbar-expand navbar-dark bg-dark">
+        <div className="container-fluid">
+        <h1 className="navbar-brand mb-0 h1">The Big Screen 🎥 </h1>
+        </div>
+      </nav>
+      <div className="buscador">
+      <h4>Buscador de peliculas y series</h4>
+      <MiApi />
+      </div>
     </div>
   );
 }
